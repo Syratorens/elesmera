@@ -1,0 +1,16 @@
+package com.syratorens.game.android;
+
+import android.os.Bundle;
+
+import com.badlogic.gdx.backends.android.AndroidApplication;
+import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+import com.syratorens.game.Elesmera;
+
+public class AndroidLauncher extends AndroidApplication {
+	@Override
+	protected void onCreate (Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
+		initialize(new Elesmera(), config);
+	}
+}
