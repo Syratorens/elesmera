@@ -5,7 +5,7 @@ import org.robovm.apple.uikit.UIApplication;
 
 import com.badlogic.gdx.backends.iosrobovm.IOSApplication;
 import com.badlogic.gdx.backends.iosrobovm.IOSApplicationConfiguration;
-import com.syratorens.game.Elesmera;
+import com.syratorens.game.application.Elesmera;
 
 public class IOSLauncher extends IOSApplication.Delegate {
     @Override
